@@ -4,13 +4,13 @@ Tmux configuration for me :)
 
 ### Install tpm
 
-'''shell
+```shell
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-'''
+```
 
 ## Config
 
-'''
+```
 set -g default-terminal "screen-256color"
 set -g mouse on
 
@@ -133,4 +133,4 @@ set -gF window-status-separator "#[bg=#{@thm_bg},fg=#{@thm_overlay_0}]│"
 
 set -g window-status-current-format " #I#{?#{!=:#{window_name},Window},: #W,} "
 set -g window-status-current-style "bg=#{@thm_peach},fg=#{@thm_bg},bold"
-'''
+```
