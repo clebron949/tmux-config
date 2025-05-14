@@ -2,6 +2,14 @@
 
 Tmux configuration for me :)
 
+### Install tpm
+
+'''shell
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+'''
+
+## Config
+
 '''
 set -g default-terminal "screen-256color"
 set -g mouse on
